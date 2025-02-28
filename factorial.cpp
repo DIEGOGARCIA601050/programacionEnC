@@ -2,7 +2,8 @@
 using namespace std; 
 
 int main() {
-    int num, factorial=1;
+    int num;
+    double factorial=1;
     cout<<"De que número quieres el factorial \n";
     cin>>num;
     for (int i = 1; i <= num; i++)

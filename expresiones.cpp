@@ -2,13 +2,13 @@
 using namespace std;
 
 int main() {
-    //Relación
+    //Lógicas
     bool PasoElExamen=true, pagoInscripcion=true;
     if(PasoElExamen&&pagoInscripcion){
         cout<<"Puedes estudiar en la UAPT \n";
     }
 
-    //Lógicas
+    //Relaciónales
     int montoDeCompra=3500;
     if(montoDeCompra>=2000){
         montoDeCompra=montoDeCompra*.9;
