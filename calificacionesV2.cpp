@@ -32,7 +32,7 @@ void CalcProm() {
     cout<<"Promedio: "<<promedio<<"\n";
     if (promedio<101&&promedio>89)
     {
-        cout<<"Excelente";
+        cout<<"Excelente\n";
     }
     if(promedio<90&&promedio>79){
         cout<<"Muy bien\n";
@@ -50,15 +50,15 @@ void CalcProm() {
 
 int main() {
     int continuar;
-    CalcProm();
-    cout<<"Pulsa 1 para continuar o 0 para terminar la ejecución\n";
-    cin>>continuar;
-    while (continuar)
+    
+    //calcular promedio
+    do
     {
         CalcProm();
         cout<<"Pulsa 1 para continuar o 0 para terminar la ejecución\n";
         cin>>continuar;
     } 
+    while (continuar);
 
     return 0;
 }

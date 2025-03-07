@@ -13,7 +13,6 @@ int main() {
     for (int i = 0; i < 5; i++)
     {
         promedio=promedio+calificaciones[i];
-        cout<<promedio<<endl;
     }
     cout<<"Calificación: "<<promedio<<endl;
     promedio=promedio/5;
@@ -23,15 +22,16 @@ int main() {
         cout<<"Excelente";
     }
     if(promedio<90&&promedio>79){
-        cout<<"Muy bien";
+        cout<<"Muy bien\n";
     }
     if(promedio<80&&promedio>69){
-        cout<<"Bien";
+        cout<<"Bien\n";
     }
     if(promedio<70&&promedio>59){
-        cout<<"Regular";
-    } else {
-        cout<<"Reprobado";
+        cout<<"Regular\n";
+    } 
+    if(promedio<60) {
+        cout<<"Reprobado\n";
     }
     
 }
