@@ -4,13 +4,13 @@ using namespace std;
 int main() {
     double calificaciones[]={};
 
-    for (int i = 0; i < 5; i++)
+    for (int i = 1; i <= 5; i++)
     {
         cout<<"ingresa la "<<i<<"° calificación\n";
         cin>>calificaciones[i];
     }
     double promedio=0;
-    for (int i = 0; i < 5; i++)
+    for (int i = 1; i <= 5; i++)
     {
         promedio=promedio+calificaciones[i];
     }

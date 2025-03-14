@@ -3,19 +3,19 @@ using namespace std;
 
 
 //funcion sin retorno
-void mensaje(int a, int b, int c) {
-    int promedio=(a+b+c)/3;
+void mensaje(int cal1, int b, int c) {
+    int promedio=(cal1+b+c)/3;
     cout<<promedio<<endl;
 }
 
 int main() {
-    int a, b, c;
+    int cal1, b, c;
     cout<<"ingresa la primera calificación\n";
-    cin>>a;
+    cin>>cal1;
     cout<<"ingresa la segunda calificación\n";
     cin>>b;
     cout<<"ingresa la tercera calificación\n";
     cin>>c;
-    mensaje(a,b,c);
+    mensaje(cal1,b,c);
     return 0;
 }
