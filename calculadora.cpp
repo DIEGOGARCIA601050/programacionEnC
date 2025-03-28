@@ -1,21 +1,28 @@
 #include <iostream>
 using namespace std;
+
 int menu() {
     int opc;
     cout<<"Ingresa la operación que quieres hacer 1 para suma, 2 para resta, 3 para multiplicación y 4 para división \n";
     cin>>opc;
     return opc;
 }
+
+//Operaciones +,-,*,/
 double suma(double num1, double num2) {
+    cout<<num1<<" "<<"+"<<" "<<num2<<"\n";
     return num1+num2;
 }
 double resta(double num1, double num2) {
+    cout<<num1<<" "<<"-"<<" "<<num2<<"\n";
     return num1-num2;
 }
 double multiplicacion(double num1, double num2) {
+    cout<<num1<<" "<<"*"<<" "<<num2<<"\n";
     return num1*num2;
 }
 double division(double num1, double num2) {
+    cout<<num1<<" "<<"/"<<" "<<num2<<"\n";
     return num1/num2;
 }
 
@@ -31,7 +38,6 @@ int main() {
     cin>>num1;
     cout<<"Ingresa el segundo número \n";
     cin>>num2;
-    cout<<num1<<" "<<opc<<" "<<num2<<"\n";
     switch (opc) {
         case 1:
             cout<<suma(num1,num2)<<"\n";

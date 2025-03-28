@@ -1,0 +1,1 @@
+float promediofinal(int examen, int proyecto);
